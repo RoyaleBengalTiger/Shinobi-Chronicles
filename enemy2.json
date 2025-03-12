@@ -1,0 +1,11 @@
+{
+    "pos" : [1680,160],
+    "size" : [100,100],
+    "speed" : [4,0],
+    "direction" : -1,
+    "state" : 0,
+    "frame" : [0,0,0,0,0,0],
+    "frame_time" : [0.1,0.1,0.07,0.2,0.2,0.07],
+    "frame_count" : [6,6,5,2,2,5],
+    "elevation_level" : 3
+}
