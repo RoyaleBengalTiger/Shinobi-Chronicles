@@ -3,7 +3,7 @@ COMP := cpp_compiler/bin/g++
 
 # Compiler & Linker Flags
 CXXFLAGS := -std=c++23 -Isrc  -Wno-narrowing -Wno-enum-compare
-LDFLAGS := -O2 -Lsrc -lraylib -lopengl32 -lgdi32 -lwinmm -mwindows
+LDFLAGS := -Lsrc -lraylib -lopengl32 -lgdi32 -lwinmm
 
 # Source Files
 SRC_DIR := src
