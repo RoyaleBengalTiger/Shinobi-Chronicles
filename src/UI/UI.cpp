@@ -67,7 +67,7 @@ void ui::load_game(){
 
     defaultfont = GetFontDefault();
     gamefont1 = LoadFontEx("assets/njnaruto.ttf",256,0,0);
-    gamefont2 = LoadFontEx("assets/Force.ttf",256,0,0);
+    gamefont2 = LoadFontEx("assets/Karasha.otf",256,0,0);
     gamefont3 = LoadFontEx("assets/Karasha.otf",256,0,0);
     gamefont4 = LoadFontEx("assets/normal3.ttf",256,0,0);
 
@@ -116,7 +116,6 @@ void ui::load_game(){
     GuiSetStyle(TEXTBOX, BASE_COLOR_DISABLED, ColorToInt((Color){0,0,0,0})); 
     GuiSetStyle(TEXTBOX, TEXT_COLOR_DISABLED, ColorToInt((Color){0,0,0,255}));
 
-    click = LoadSound("assets/click3.wav");
     game = menu;
     edit_mode = false;
     game_status = false;

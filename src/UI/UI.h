@@ -46,7 +46,6 @@ private:
     void loadscores();
     void savescores();
 
-    Sound click;
     bool game_status;
     char player_name[30];
     bool edit_mode;
@@ -59,7 +58,6 @@ public:
     ui() : Player_projectile(MAX_PROJECTILE),Boss_projectile(BOSS_MAX_PROJECTILE),player_name(""){
     }
     ~ui(){
-        UnloadSound(click);
         UnloadTexture(homescreen);
         UnloadTexture(gamescreen);
         UnloadTexture(board_background);
